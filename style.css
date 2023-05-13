@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 109vh;
+    background-image: url(pexels-kelly-2887294.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav{
+    width: 1200px;
+    height: 55px;
+    margin: auto;
+}
+
+.icon{
+    width: 250px;
+    height: 50px;
+    float: left;
+    padding-top: 10px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: auto;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.name{
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial;
+    padding-top: 10px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.nav ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 19px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    border-bottom: 1px solid white;
+}
+
+.btn{
+    font-family: Arial;
+    width: 200px;
+    height: 35px;
+    background:white;
+    border: transparent;
+    margin-top: 25px;
+    color: black;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 75px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    outline-offset: none;
+    shape-outside: margin-box;
+    outline: 4px solid #fff;
+}
+
+.content{
+    border: 1px none;
+    width: 800px;
+    float: left;
+    margin-top: 60px;
+    height: 600px;
+    margin-left: 60px;
+    padding-left: 25px;
+}
+
+.content h2{
+    font-size: 75px;
+    font-family:Arial;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    padding-top: 6%;
+}
+
+.content span{
+    font-size: 45px;
+    color: white;
+    font-family: Arial;
+    letter-spacing: 1px;
+}
+
+.content .data{
+    border : 1px none;
+    width: 600px;
+    margin-left: 60px;
+    margin-top: 25px;
+    height: 150px;
+}
+
+.data p{
+    font-family: Arial;
+    font-size: 23px;
+    letter-spacing: 4px;
+    color: #fff;
+    line-break: 1px;
+}
+
+.btnn{
+    font-family: Arial;
+    width: 200px;
+    height: 35px;
+    background:white;
+    border: transparent;
+    margin-top: 5px;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+.btnn:hover{
+    outline-offset: none;
+    shape-outside: margin-box;
+    outline: 4px solid #fff;
+}
